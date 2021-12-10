@@ -1,0 +1,40 @@
+@import "./components/button";
+@import "./content/typography";
+@import "./custom/color";
+@import "./utilities/display";
+@import "./utilities/spacing";
+@import "./utilities/text-color";
+@import "./utilities/background-color";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: var(--bs-border-sizing);
+    font-family: var(--bs-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    scroll-behavior: var(--scroll-behavior);
+}
+
+:root {
+    --bs-border-sizing: border-box;
+    --bs-font-family: "Poppins", sans-serif;
+    --scroll-behavior: smooth;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+}
+
+body {
+    color: var(--bs-dark);
+    background-color: var(--bs-light);
+
+    a {
+        color: var(--bs-blue);
+    }
+
+    svg {
+        vertical-align: middle;
+    }
+}

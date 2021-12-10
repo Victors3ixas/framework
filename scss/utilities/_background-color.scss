@@ -1,0 +1,20 @@
+$color-light: var(--bs-light);
+$color-dark: var(--bs-dark);
+
+.bg {
+    &-primary   {background-color: var(--bs-primary)   !important; color: $color-light;}
+
+    &-secondary {background-color: var(--bs-secondary) !important; color: $color-light;}
+
+    &-success   {background-color: var(--bs-success)   !important; color: $color-light;}
+    
+    &-danger    {background-color: var(--bs-danger)    !important; color: $color-light;}
+    
+    &-warning   {background-color: var(--bs-warning)   !important; color: $color-dark;}
+    
+    &-info      {background-color: var(--bs-info)      !important; color: $color-dark;}
+
+    &-light     {background-color: var(--bs-light)     !important; color: $color-dark;}
+
+    &-dark      {background-color: var(--bs-dark)      !important; color: $color-light;}
+}
